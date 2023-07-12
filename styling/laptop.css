@@ -1,0 +1,53 @@
+@media all and (min-width: 1024px) {
+
+    /* NAVIGATION SECTION -----------------------------*/
+        #header {
+            grid-row: 1 / 2;
+            grid-column: 1 / -1;    
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0);
+            z-index: 10;
+            width: 100%;
+            position: relative;
+            padding: 40px 60px;
+        }
+    
+        #header .logo {
+            width: 70px;
+            height: auto;
+        }
+        
+        #header .menu-btn {
+            display: none;
+        }
+    
+        #header nav ul {
+            display: flex;
+            gap: 53px;
+        }
+        
+        #header nav ul li {
+            list-style-type: none;
+            display: inline;
+        }
+        
+        #header nav ul li a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-size: 1.36rem;
+        }
+        
+        #header nav ul li a:hover {
+            text-decoration: none;
+            color:var(--Red);
+        }
+        
+        #header nav ul li a:active {
+            text-decoration: none;
+            color:var(--solidBlack);
+        }
+    /* NAVIGATION SECTION END--------------------------*/
+}
