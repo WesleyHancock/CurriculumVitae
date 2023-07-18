@@ -6,10 +6,16 @@
     /* font-family: 'Roboto', sans-serif; */
 }
 
+:root {
+    --black: rgb(0, 0, 0);
+    --white: rgb(255, 255, 255);
+    --darkBlue: rgb(38, 59, 149);
+}
+
 body {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(6, minmax(min-content, max-content));
     min-height: 100vh;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: var(--white);
 }
